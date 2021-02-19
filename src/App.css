@@ -1,0 +1,32 @@
+.app {
+  height: 100vh;
+  padding: 1em;
+  overflow-y: scroll;
+}
+
+.messages {
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.message_form {
+  position: fixed !important;
+  bottom: 100;
+  margin-left: 320px !important;
+  left: 0;
+  right: 1em;
+  z-index: 200;
+}
+
+.message_self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message_image {
+  padding: 1em;
+}
+
+.progress_bar {
+  margin: 0.3em 0 0 0 !important;
+}
